@@ -1,3 +1,4 @@
 .idea/
-.terraform*/
-.terraformstatefile*/
+.terraform*
+terraform.tfstate*
+
