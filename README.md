@@ -3,7 +3,7 @@ Welcome to the Terraform Basic to Advanced Resources repository!
 
 ## Terraform Learning Days
 
-- [Day 01](1_Day1.md)
+- [Day 01](Readme.md)
 - [Day 02](2_Day2.md)
 - [Day 03](3_Day3.md)
 - [Day 04](4_Day4.md)
