@@ -1,7 +1,7 @@
 //provider authentication
 provider "aws" {
     region = "ap-south-1"
-    access_key = "USE-YOUR-ACCESS-KEY-KERE"
+    access_key = "USE-YOUR-ACCESS-KEY-hERE"
     secret_key = "USE-YOUR-SECRET-KEY-HERE"
 }
 
