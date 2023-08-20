@@ -1,7 +1,7 @@
 🔖 This is Day 4 of learning Terraform (Infrastructure as Code - IaaC).
 
 So, let's get started! 🔰
-
+  
 📌 FIRST VIRTUAL MACHINE THROUGH TERRAFORM
 
 🔖 EC2 stands for Elastic Compute Cloud.

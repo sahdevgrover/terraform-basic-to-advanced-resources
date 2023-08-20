@@ -13,7 +13,7 @@ resource "aws_iam_user" "demouser" {
     name = "sahdev-demo-user"
 }
 ```
-
+    
 CLI Commands Used:
 ````
 terraform apply -auto-approve
