@@ -19,7 +19,7 @@ CLI Commands Used:
 terraform apply -auto-approve
 terraform destroy -auto-approve
 ````
-
+  
 AWS CLI commands Used:
 
 ```

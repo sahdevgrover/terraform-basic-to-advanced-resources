@@ -9,7 +9,7 @@ So, let's get started! 🔰
 ✔️ In short, it's a virtual server in the cloud that launches in AWS.
 
 The important thing is that cloud providers offer multiple regions in which we can create our resources.
-
+   
 ✔️ So here also, you need to decide the region in which Terraform would create the resources for you (you have to mention it in your code).
 
 📌 Let's see the configuration of a virtual machine. It consists of:
