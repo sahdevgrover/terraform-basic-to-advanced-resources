@@ -13,3 +13,6 @@ Welcome to the Terraform Basic to Advanced Resources repository!
 - [Day 08](8_Day8)
 - [Day 09](9_Day9)
 - [Day 10](10_Day10)
+- [Day 11](11_Day11)
+- [Day 12](12_Day12)
+- [Day 13](13_Day13)
