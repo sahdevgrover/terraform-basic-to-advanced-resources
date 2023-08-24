@@ -1,7 +1,15 @@
 # terraform-basic-to-advanced-resources
 Welcome to the Terraform Basic to Advanced Resources repository!
 
-## Terraform Learning Days
+# HIT THE STAR! ⭐
+If you're planning on using this Terraform repository for learning, please consider giving it a star⭐                      
+Thank you!
+
+# For Doubts and Queries 
+Feel free to connect with me on LinkedIn through this profile: 
+https://www.linkedin.com/in/sahdevgrover/
+
+## Terraform Learning Days                                                
 
 - [Day 01](1_Day1)
 - [Day 02](2_Day2)
