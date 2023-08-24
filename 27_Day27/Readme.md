@@ -5,7 +5,7 @@ So, let's get started!🔰
 
 ### Key Takeaways from Yesterday's Learnings on Module Output Values:
 
-The output values defined within a module are not immediately visible on the command line when declared in a project or configuration file. 
+The output values defined within a module are not immediately visible on the command line.
 
 To highlight them on the command line, you need to declare these outputs in your configuration file and then reference them in the provisioning or calling module.
 
