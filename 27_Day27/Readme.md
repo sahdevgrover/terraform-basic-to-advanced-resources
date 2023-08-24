@@ -63,7 +63,7 @@ Public modules are managed via Git and GitHub. Publishing a module takes only a
 
 ### Publishing Requirements:
 
-* To publish a module, certain requirements must be met:
+To publish a module, certain requirements must be met:
 
 * The module should be hosted on GitHub (public repo) for the public registry.
 
