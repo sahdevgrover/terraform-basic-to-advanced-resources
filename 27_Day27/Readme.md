@@ -24,13 +24,13 @@ https://developer.hashicorp.com/terraform/language/modules/sources
 
 The "source" argument in Terraform tells the tool where to find configurations for child modules. This includes locations like GitHub repositories, Terraform Registry entries, and more. Understanding how to specify the source is crucial.
 
-#### Verified Modules in Terraform Registry:
+### Verified Modules in Terraform Registry:
 
 Within the Terraform Registry, you can find modules that are verified and maintained by third-party vendors. These modules cover a wide range of resources, such as AWS S3, VPC, ELB, etc.
 
 ![image](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/d551ee90-98cf-4fbc-990e-35650910a340)
 
-#### Using Registry Modules in Terraform:
+### Using Registry Modules in Terraform:
 
 To use a module from the Terraform Registry in your code, you need to leverage the "source" argument, which contains the module's path within the registry. The provided code snippet demonstrates how to reference an EC2 instance module from the Terraform Registry.
 ```
