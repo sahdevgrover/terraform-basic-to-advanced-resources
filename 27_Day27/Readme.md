@@ -33,7 +33,7 @@ Within the Terraform Registry, you can find modules that are verified and mainta
 ##### Using Registry Modules in Terraform:
 
 To use a module from the Terraform Registry in your code, you need to leverage the "source" argument, which contains the module's path within the registry. The provided code snippet demonstrates how to reference an EC2 instance module from the Terraform Registry.
-
+```
 module "ec2_instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
@@ -50,7 +50,7 @@ module "ec2_instance" {
     Environment = "dev"
   }
 }
-
+```
 ### Publishing Modules:
 
 #### Overview of Module Publishing:
