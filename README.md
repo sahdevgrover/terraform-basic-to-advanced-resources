@@ -1,7 +1,7 @@
 # terraform-basic-to-advanced-resources
 Welcome to the Terraform Basic to Advanced Resources repository!
 
-# HIT THE STAR! ⭐
+# Hit the Star! ⭐
 If you're planning on using this Terraform repository for learning, please consider giving it a star⭐                      
 Thank you!
 
