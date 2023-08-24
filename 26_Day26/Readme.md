@@ -50,6 +50,9 @@ the expression refers to the private_ip attribute from an aws_instance resource 
 
 You can use any valid expression as an output value.
 
+![image](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/ee51033f-6ce8-45e4-a8b3-9858d75c1921)
+
+
 ![image](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/8dcf33a3-a7cc-4595-abbe-a62f5252522c)
 
 #### 🚀 Accessing Child Module Outputs -
