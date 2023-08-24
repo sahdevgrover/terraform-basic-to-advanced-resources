@@ -24,13 +24,13 @@ https://developer.hashicorp.com/terraform/language/modules/sources
 
 The "source" argument in Terraform tells the tool where to find configurations for child modules. This includes locations like GitHub repositories, Terraform Registry entries, and more. Understanding how to specify the source is crucial.
 
-##### Verified Modules in Terraform Registry:
+#### Verified Modules in Terraform Registry:
 
 Within the Terraform Registry, you can find modules that are verified and maintained by third-party vendors. These modules cover a wide range of resources, such as AWS S3, VPC, ELB, etc.
 
 ![image](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/d551ee90-98cf-4fbc-990e-35650910a340)
 
-##### Using Registry Modules in Terraform:
+#### Using Registry Modules in Terraform:
 
 To use a module from the Terraform Registry in your code, you need to leverage the "source" argument, which contains the module's path within the registry. The provided code snippet demonstrates how to reference an EC2 instance module from the Terraform Registry.
 ```
@@ -51,9 +51,9 @@ module "ec2_instance" {
   }
 }
 ```
-### Publishing Modules:
+## Publishing Modules:
 
-#### Overview of Module Publishing:
+### Overview of Module Publishing:
 
 Anyone can publish and share modules on the Terraform Registry. Published modules support versioning, automatic documentation generation, version history browsing, example showcasing, READMEs, and more.
 
@@ -61,7 +61,7 @@ Anyone can publish and share modules on the Terraform Registry. Published module
 
 Public modules are managed via Git and GitHub. Publishing a module takes only a few minutes. Once a module is published, you can release a new version of a module by simply pushing a properly formed Git tag.
 
-#### Publishing Requirements:
+### Publishing Requirements:
 
 * To publish a module, certain requirements must be met:
 
@@ -75,7 +75,7 @@ Public modules are managed via Git and GitHub. Publishing a module takes only a
 
 * Semantic versioning tags (x.y.z) are used for module releases.
 
-##### Standard Module Structure:
+#### Standard Module Structure:
 
 The standard module structure is recommended for reusable modules in separate repositories. This layout involves directories like "main.tf," "variables.tf," "outputs.tf," "modules/" for nested modules, and "examples/" for usage examples.
 ```
