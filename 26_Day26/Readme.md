@@ -53,8 +53,6 @@ You can use any valid expression as an output value.
 ![image](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/ee51033f-6ce8-45e4-a8b3-9858d75c1921)
 
 
-![image](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/8dcf33a3-a7cc-4595-abbe-a62f5252522c)
-
 #### 🚀 Accessing Child Module Outputs -
 
 ✔️ For parent modules, accessing outputs from child modules is done through expressions like:
@@ -63,6 +61,9 @@ You can use any valid expression as an output value.
 ```
 module.<MODULE NAME>.<OUTPUT NAME>
 ```
+
+![image](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/8dcf33a3-a7cc-4595-abbe-a62f5252522c)
+
 
 🔖 For instance, if you have an EC2 instance and you wish to display its instance ID on the command line, you can conveniently do so by setting up an output block like this:
 
