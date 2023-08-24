@@ -37,4 +37,4 @@ https://www.linkedin.com/in/sahdevgrover/
 - [Day 24](24_Day24)
 - [Day 25](25_Day25)
 - [Day 26](26_Day26)
-- [Day 27](26_Day27)
+- [Day 27](27_Day27)
