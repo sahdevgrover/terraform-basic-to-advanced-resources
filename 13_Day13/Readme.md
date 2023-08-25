@@ -7,9 +7,9 @@ So, let's get started! 🔰
 ✔️ The conditional expression uses the value of a bool expression to select one of two values.
 
 🔖 Syntax of the conditional expression:
-
+```
 condition ? true_val : false_val
-
+```
 Here,
 
 ✅ If the condition is true, then the result is true_val.
@@ -35,7 +35,7 @@ Here,
 How do we define a local value? 🤔
 
 🔖 Let's see:
-
+```
 locals
 {
 common_tags =
@@ -44,27 +44,27 @@ owner = "Devops Team"
 service = "backend"
 }
 }
-
+```
 ✔️ So, these two resource blocks will be created, like this:
 
 ✅ Resource 1:
-
+```
 resource "aws_instance" "ab_dev"
 {
 ami = "ami-123"
 instance_type = "t2.micro"
 tags = local.common_tags
 }
-
+```
 ✅ Resource 2:
-
+```
 resource "aws_ebs_volume" "bd_ebs"
 {
 availability_zone = "ap-south-1"
 size = 8
 tags = local.common_tags
 }
-
+```
 ✔️ As these resources get created, they will inherit both the key-value pairs as part of the tags.
 
 🔖 In short:
@@ -76,12 +76,12 @@ tags = local.common_tags
 ✔️ Local values can be used for multiple different use-cases, like having a conditional expression.
 
 🔖 For example:
-
+```
 locals
 {
 name_prefix = "${var.name != " " ? var.name : var.default}"
 }
-
+```
 📌 Important things to remember:
 
 ✅ Local values can be helpful to avoid repeating the same values or expressions multiple times in a configuration.
