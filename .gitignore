@@ -1,3 +1,5 @@
 .idea/
 .terraform*
 terraform.tfstate*
+*.pem
+
