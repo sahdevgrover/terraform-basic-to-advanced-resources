@@ -52,7 +52,10 @@ As a result, Terraform will create an EC2 instance in each of the specified subn
 
 ✔️ The terraform graph command is a useful tool to generate a visual representation of either a configuration or execution plan.
 
-✔️ The output of terraform graph is in the *DOT format*, which can be easily converted to an image using tools like Graphviz.
+✔️ The output of the terraform graph is in the *DOT format*, which can be easily converted to an image using tools like Graphviz.
+
+![Screenshot 2023-07-31 180954](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/f674ddd7-2010-4a22-bf3d-148b27bd3d20)
+
 
 ### 🚀 SAVING TERRAFORM PLAN TO FILE
 
@@ -72,6 +75,8 @@ However, it's worth noting that this feature is not frequently used in productio
 
 ✔️ The terraform output command is used to extract the value of an output variable from the state file.
 
+![Screenshot 2023-07-31 185457](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/ca29a9ba-ed1e-4d0f-b55f-8eb72052abd1)
+
 🔖 For instance,
 
 if you have defined output variables like iam_names and iam_arns in your configuration file,
@@ -81,3 +86,5 @@ you can extract the output of iam_names only by running:
 ✅ terraform output iam_names
 ```
 This way, you can selectively access specific output values.
+
+![Screenshot 2023-07-31 185504](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/30a34f55-b11c-4ea8-aa26-19da28631c9e)
