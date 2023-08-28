@@ -1,3 +1,5 @@
+## Day 15
+
 🔖 Today marks Day 15 of our Terraform journey, where we continue to explore Infrastructure as a Code (IaaC).
 
 So, Let's get started! 🔰
@@ -25,9 +27,12 @@ Each region has a different AMI ID, and these IDs keep updating regularly.
 
 and exports the results under a name (e.g., app_ami).
 
+![image](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/06bed97b-3022-457b-8d36-e151635bcc64)
+
 ✔️ This way, we can dynamically fetch the AMI ID from any of the regions mentioned above based on our requirements.
 
-🔖 Please refer to the attached screenshot for a clearer understanding.
+![Screenshot 2023-07-29 195114](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/fb1bb89f-fcae-4ce3-a608-0556cff6661a)
+
 
 ### 🚀 TERRAFORM DEBUGGING
 
@@ -55,6 +60,8 @@ Thankfully,
 
 ✔️ By running this command in the directory containing your .tf files, you can automatically format your code, making it more readable and maintainable.
 
+![Screenshot 2023-07-29 195740](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/2647d88b-ad58-443e-896c-34a6cee6367d)
+
 ### 🚀 TERRAFORM VALIDATE
 
 ✔️ Ensuring that your Terraform configuration is valid is essential.
@@ -63,6 +70,8 @@ Thankfully,
 
 ✔️ This command checks whether a configuration is grammatically valid and can detect issues like unsupported arguments and undeclared variables.
 
+![Screenshot 2023-07-29 200515](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/597cc1e1-7e69-4061-a795-9df8b2bf1336)
+
 ### 🚀 LOAD ORDER AND SEMANTICS
 
 ✔️ Terraform automatically loads all the configuration files within a specified directory in alphabetical order.
@@ -70,6 +79,8 @@ Thankfully,
 ✔️ The files must end with either .tf or .tf.json to indicate the format in use.
 
 ✔️ This automatic loading process makes organizing and managing configurations much easier.
+
+![Screenshot 2023-07-29 202748](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/991d5c3e-2425-492c-bef0-9f9723acb67d)
 
 ## 📌 Things to remember
 
