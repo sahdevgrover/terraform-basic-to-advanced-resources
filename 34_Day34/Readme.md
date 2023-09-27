@@ -67,19 +67,22 @@ terraform plan -generate-config-out="demosg.tf"
 ```
 Now, you can see that the terraform has automatically generated the file having the security group resource.
 
-![]("C:\Users\hp\s3_files\Pictures\Screenshots\Screenshot 2023-09-27 180337.png")
+![Screenshot 2023-09-27 180337](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/fb2a5a39-5339-4725-8268-de50cb75520a)
 
-![]("C:\Users\hp\s3_files\Pictures\Screenshots\Screenshot 2023-09-27 180355.png")
+![Screenshot 2023-09-27 180355](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/f8ae5b85-7c8a-4adb-b830-4254a4cde0ef)
+
 
 After generating the plan, apply it to create the state file and import the resource:
 ```
 terraform apply -auto-approve
 ```
-![]("C:\Users\hp\s3_files\Pictures\Screenshots\Screenshot 2023-09-27 180459.png")
+![Screenshot 2023-09-27 180459](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/1f844507-5821-43d6-b17b-f5a7668175a9)
+
 
 State file generated:
 
-![]("C:\Users\hp\s3_files\Pictures\Screenshots\Screenshot 2023-09-27 180510.png")
+![Screenshot 2023-09-27 180510](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/f1a21ea1-47d1-4283-8b47-285d6583266c)
+
 
 ### Verifying Terraform Management
 
