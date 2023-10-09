@@ -1,5 +1,7 @@
 # Terraform Cloud & Sentinel
 
+![Screenshot 2023-10-09 084815](https://github.com/sahdevgrover/terraform-basic-to-advanced-resources/assets/132704247/141d3f52-b7cf-4234-a513-5d4e378b1399)
+
 ## Terraform Cloud
 
 Terraform Cloud manages Terraform runs in a consistent and reliable environment with various features like access controls, a private registry for sharing modules, policy controls, and others.
