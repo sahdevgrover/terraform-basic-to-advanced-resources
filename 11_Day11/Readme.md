@@ -23,17 +23,17 @@ To better understand this concept, let's look at some use cases.
 
 variables.tf file has :
 
-variable "instance_name" {}
+variable "instance_name" {
+type = number
+}
 
-In this case, the instance_name is undefined, as you can see.
+In this case, the instance_name has a type = number, as you can see.
 
 🔖 Additionally, the terraform.tfvars file has :
 
 instance_name = "sahdev-123"
 
-✔️ Here, the value for instance_name is not an identification number.
-
-✔️ When you run a terraform plan, you will get an error.
+✔️ Here, the value for instance_name is not an identification number so it will throw an error as the type specified is a number but in .tfvars we have specified the string value with a number, which is not acceptable.
 
 🔖 Now, let's improve the above code to make it work correctly:
 
