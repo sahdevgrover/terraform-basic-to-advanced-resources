@@ -5,11 +5,11 @@ and iterate it according to the names specified in it.
 */
 resource "aws_iam_user" "lb" {
   name = var.elb_name[count.index]
-  count = 3
   path = "/system/"
+  count = length(var.elb_name) # most appropriate way
 }
 
 variable "elb_name" {
-  type = list
+  type = list(string)
   default = ["dev-loadbalancer" , "stage-loadbalancer" , "prod-loadbalancer"]
 }
