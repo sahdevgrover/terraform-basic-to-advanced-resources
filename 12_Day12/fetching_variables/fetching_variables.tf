@@ -26,7 +26,7 @@ variable "types" {                 // type is map
 Syntax for the both method :
 
 1. instance_type = var.list[0]
-(this is, we are fetching the values associated with map type variables.)
+(this is, we are fetching the values associated with list type variables.)
 
 2. instance_type = var.types["ap-south-1"]
-(this is, we are fetching the values associated with list type variables.)
+(this is, we are fetching the values associated with map type variables.)
